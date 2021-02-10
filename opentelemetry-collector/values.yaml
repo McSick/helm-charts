@@ -65,6 +65,9 @@ image:
   tag: ""  
   pullPolicy: IfNotPresent
 
+# if specified, this service account will be used
+serviceAccountName:
+
 
 # used if autoscaling.enabled is false
 replicaCount: 1

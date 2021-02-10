@@ -88,6 +88,7 @@ The following table lists the configurable parameters of the Honeycomb chart, an
 | `image.repository` | OpenTelemetry Collector Image name | `otel/opentelemetry-collector-contrib` |
 | `image.tag` | OpenTelemetry Collector Image tag (leave blank to use app version) | `nil` |
 | `image.pullPolicy` | OpenTelemetry Collector image pull policy | `IfNotPresent` |
+| `serviceAccountName` | If specified, this service account will be used for the deployment | `nil` |
 | `replicaCount` | Number of OpenTelemetry Collector nodes | `1` |
 | `podAnnotations` | Pod annotations | `{}` |
 | `podSecurityContext` | Security context for pod | `{}` | 
